@@ -1,0 +1,6 @@
+[submodule "vscode"]
+	path = vscode
+	url = https://github.com/THP-Lab/VSCode-assistant
+[submodule "eliza"]
+	path = eliza
+	url = https://github.com/THP-Lab/eliza
