@@ -1,0 +1,41 @@
+# Dossiers à ignorer
+ignore_dir:
+  - node_modules
+  - dist
+  - build
+  - coverage
+  - .git
+  - .vscode
+  - .idea
+
+# Types de fichiers à ignorer
+ignore_file:
+  - "*.log"
+  - "*.lock"
+  - "*.map"
+  - "*.min.js"
+  - "*.min.css"
+  - "*.test.ts"
+  - "*.test.js"
+  - "*.spec.ts"
+  - "*.spec.js"
+
+# Extensions de fichiers à analyser
+analyze_ext:
+  - .ts
+  - .tsx
+  - .js
+  - .jsx
+  - .json
+  - .css
+  - .scss
+  - .html
+
+# Taille maximale de fichier à analyser (en bytes)
+max_file_size: 1000000
+
+# Instructions pour l'assistant
+assistant_rules:
+  prefix: "nous travaillons sur eliza/cline"
+  objective: "tu es doit reussir a faire communisuer eliza et cline"
+  validation: "Avant de répondre assure toi que tu as bien lu le code et que tu as bien compris ce que je veux faire sinon pose moi des questions."
